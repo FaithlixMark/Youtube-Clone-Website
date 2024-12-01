@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>YouTube.com Clone</title>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/side_bar.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="menu" src="icons/menu.svg" alt="" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="" />
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notification-container">
+          <img
+            class="notifications-icon"
+            src="icons/notifications.svg"
+            alt=""
+          />
+          <div class="tooltip">Notifications</div>
+          <div class="notifications-count"><p>3</p></div>
+        </div>
+        <img class="main-profile" src="profiles/main-profile.png" alt="" />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="" />
+        <div>Music</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=JziVjGvejWQ&t=13s"
+              ><img class="thumbnail" src="thumbnails/thumbnail-1.avif" alt=""
+            /></a>
+            <div class="video-time">3:47</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@lix5572"
+                ><img
+                  class="profile-picture"
+                  src="profiles/profile-1.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="video-info">
+              <a
+                class="video-title"
+                href="https://www.youtube.com/watch?v=JziVjGvejWQ&t=13s"
+              >
+                Properties of Sound Waves: Doppler Effect Real Life Application
+                (Phyphox Simulation)
+              </a>
+              <div>
+                <a class="video-author" href="https://www.youtube.com/@lix5572"
+                  >LIX</a
+                >
+              </div>
+              <p class="video-stats">951 views &middot; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY"
+              ><img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt=""
+            /></a>
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@mkbhd">
+                <img
+                  class="profile-picture"
+                  src="profiles/profile-2.jpeg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="video-info">
+              <a
+                class="video-title"
+                href="https://www.youtube.com/watch?v=n2RNcPRtAiY"
+                >Talking Tech and AI with Google CEO Sundar Pichai!</a
+              >
+              <div>
+                <a class="video-author" href="https://www.youtube.com/@mkbhd"
+                  >Marques Brownlee</a
+                >
+              </div>
+              <p class="video-stats">3.4M views &middot; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=LEjhY15eCx0"
+              ><img class="thumbnail" src="thumbnails/thumbnail-3.avif" alt=""
+            /></a>
+            <div class="video-time">2:25</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@pixar"
+                ><img
+                  class="profile-picture"
+                  src="profiles/profile-3.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="video-info">
+              <a
+                class="video-title"
+                href="https://www.youtube.com/watch?v=LEjhY15eCx0"
+                >Inside Out 2 | Official Trailer</a
+              >
+              <div>
+                <a class="video-author" href="https://www.youtube.com/@pixar"
+                  >Pixar</a
+                >
+              </div>
+              <p class="video-stats">64M views &middot; 8 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=l7rce6IQDWs"
+              ><img class="thumbnail" src="thumbnails/thumbnail-4.avif" alt=""
+            /></a>
+            <div class="video-time">32:47</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@BenEater"
+                ><img
+                  class="profile-picture"
+                  src="profiles/profile-4.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="video-info">
+              <a
+                class="video-title"
+                href="https://www.youtube.com/watch?v=l7rce6IQDWs"
+                >The world's worst video card?</a
+              >
+              <div>
+                <a class="video-author" href="https://www.youtube.com/@BenEater"
+                  >Ben Eater</a
+                >
+              </div>
+              <p class="video-stats">6.4M views &middot; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg"
+              ><img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt=""
+            /></a>
+            <div class="video-time">19:43</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@MrBeast"
+                ><img
+                  class="profile-picture"
+                  src="profiles/profile-5.jpeg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="video-info">
+              <a
+                class="video-title"
+                href="https://www.youtube.com/watch?v=yXWw0_UfSFg"
+                >Anything You Can Fit In The Circle I'll Pay For</a
+              >
+              <div>
+                <a class="video-author" href="https://www.youtube.com/@MrBeast"
+                  >MrBeast</a
+                >
+              </div>
+              <p class="video-stats">301M views &middot; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=OEezyvYUANY"
+              ><img class="thumbnail" src="thumbnails/thumbnail-6.avif" alt=""
+            /></a>
+            <div class="video-time">5:34</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@TRIBL"
+                ><img
+                  class="profile-picture"
+                  src="profiles/profile-6.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="video-info">
+              <a
+                class="video-title"
+                href="https://www.youtube.com/watch?v=OEezyvYUANY"
+                >Rest On Us | Bethel Music | Housefires | David Funk (Official
+                Music Video)</a
+              >
+              <div>
+                <a class="video-author" href="https://www.youtube.com/@TRIBL"
+                  >TRBL</a
+                >
+              </div>
+              <p class="video-stats">12K views &middot; 7 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=gjN500LQqek"
+              ><img class="thumbnail" src="thumbnails/thumbnail-7.avif" alt=""
+            /></a>
+            <div class="video-time">6:32</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@CinecomCrew/videos"
+                ><img
+                  class="profile-picture"
+                  src="profiles/profile-7.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="video-info">
+              <a
+                class="video-title"
+                href="https://www.youtube.com/watch?v=gjN500LQqek"
+                >ROTATION REVEAL in PREMIERE PRO (Maroon 5 - Girls Like You)</a
+              >
+              <div>
+                <a
+                  class="video-author"
+                  href="https://www.youtube.com/@CinecomCrew/videos"
+                  >Cinecom.net</a
+                >
+              </div>
+              <p class="video-stats">8.2M views &middot; 6 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=jg9UbgvnLuo&t=3s"
+              ><img class="thumbnail" src="thumbnails/thumbnail-8.avif" alt=""
+            /></a>
+            <div class="video-time">6:50</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@CinecomCrew/videos"
+                ><img
+                  class="profile-picture"
+                  src="profiles/profile-7.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="video-info">
+              <a
+                class="video-title"
+                href="https://www.youtube.com/watch?v=jg9UbgvnLuo&t=3s"
+                >5 FAST & EASY VISUAL EFFECTS in Premiere Pro #01</a
+              >
+              <div>
+                <a
+                  class="video-author"
+                  href="https://www.youtube.com/@CinecomCrew/videos"
+                  >Cinecom.net</a
+                >
+              </div>
+              <p class="video-stats">6.3M views &middot; 6 years ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
